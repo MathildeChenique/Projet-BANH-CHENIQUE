@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<link href="FICHIER.css" rel="stylesheet">
+<title>Mathilde &amp; Caroline</title>
+<body>
+<h1>Mathilde &amp; Caroline</h1>
+<input autocomplete="off" type="text" name="query" placeholder="Rechercher un produit" value="" class="search-input"/>
+<div class="wrapper">
+<div class="navigation">
+<nav>
+	<ul>
+		<li><a>A propos</a>
+   		<ul>
+   			<li><a>Notre équipe</a></li>
+   			<li><a>Notre histoire</a></li>
+   		</ul>
+       </li>
+        <li><a>Nos produits</a>
+        <ul>
+        	<li><a>Le Maquillage Heloise</a></li>
+        	<li><a>Les Soins Louise</a></li>
+        </ul>
+		</li>
+        <li><a>Vos produits préférés</a>
+        <ul>
+        	<li><a>La Crème Marianne</a></li>
+        	<li><a>Le Fond de Teint Inès</a></li>
+        </ul>
+		</li>
+        <li><a>Les nouveautés</a>
+        <ul>
+        		<li><a>Le Rouge à Lèvres Sophie</a></li>
+        		<li><a>Le Crayon Noémie</a></li>
+        </ul>
+		</li>
+	</ul>
+</nav>
+
+</div>
+</div>
+<style>
+	.slider {
+		width: 1200px;
+		overflow:hidden;
+		margin: 200px auto;
+	
+	}
+	.slides {
+		width: calc(1180px * 2);
+		animation: glisse 5s infinite;
+		
+	}
+	.slide {
+		float: right;
+		
+	}
+	
+	@keyframes glisse {
+		0% {
+			transform: translateX(0);
+		}
+		10% {
+			transform: translateX(0);
+		}
+		33% {
+			transform: translateX(-500px);
+		}
+		43% {
+			transform: translateX(-500px);
+		}
+		66% {
+			transform: translateX(-1000px);
+		}
+		76% {
+			transform: translateX(-1000px);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+	.row {
+		align-content: center;
+	}
+	.footer {
+	    background-color: #295352;
+		padding: 50px;
+		text-align: center;
+	}
+	.container {
+		text-align:center;
+		content: open-quote;
+		
+	}
+	</style>
+<div class="slider">
+	<div class="slides">
+	<div class="slide">
+		<slide><img src="_aucun_objet_/Shot_06_040 copy.jpg" width="1180" height="730" alt=""/></slide></div>
+		<div class="slide">
+		<slide><img src="_aucun_objet_/Feather-Trim-Blazer.jpg" width="1180" height="730" alt=""/></slide></div>
+</div>
+	</div>
+	
+	<div class="container">    
+  <h2>What We Do</h2>
+  
+	<div id="Images">
+     <div id="First">
+      <img src="image001.png" width="584" height="594" alt="First"/> </div>
+      <p>Ca me casse les couilles</p> 
+ 
+    <div id="Second"> 
+   <img src="image002.png" width="584" height="594" alt="Second"/>  </div>
+      <p>Second Project</p>    
+    
+
+</div>
+	</div>
+<div class="footer">
+  <p>Footer Text</p>
+  </div>
+</body>
+</html>
